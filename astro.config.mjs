@@ -6,6 +6,6 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://jonathanspeek.github.io",
-  base: "/astro-blog-fastly",
+  base: "/",
   integrations: [mdx(), sitemap()],
 });
